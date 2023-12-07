@@ -73,7 +73,9 @@ const AddStudent = () => {
       setEmail("");
       setPassword("");
       document.getElementById("my_modal_3").close();
-      toast.success("Adding User to the database");
+      setTimeout(() => {
+        toast.success("Adding User to the database");
+      }, 2000);
       toast.info("Please this might take few minutes");
     }
   }, [data]);
