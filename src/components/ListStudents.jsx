@@ -21,9 +21,7 @@ const ListStudents = () => {
   return (
     <div className="w-fit mx-auto mt-16">
       <div className="overflow-x-auto">
-        <h1 className="text-white text-xl mb-5 font-bold text-center">
-          List of Users
-        </h1>
+        <h1 className="text-xl mb-5 font-bold text-center">List of Users</h1>
         <table className="table">
           {/* head */}
           <thead>
