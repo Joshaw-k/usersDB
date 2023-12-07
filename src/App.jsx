@@ -14,7 +14,7 @@ export default function Home() {
         <AddStudent />
         <ListStudents />
       </main>
-      <p className="text-center">This is a Mumbai Testnet Dapp.</p>
+      <p className="text-center font-bold">This is a Mumbai Testnet Dapp.</p>
     </>
   );
 }
