@@ -36,8 +36,8 @@ const ListStudents = () => {
           </thead>
           <tbody>
             {isLoading ? (
-              <div className="place-content-center">
-                <span className="loading loading-spinner loading-md"></span>
+              <div className="w-full">
+                <span className="loading loading-spinner loading-md mx-auto"></span>
               </div>
             ) : (
               data?.map((item, index) => (
