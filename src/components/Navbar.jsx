@@ -1,5 +1,5 @@
+import { ConnectWallet } from "@thirdweb-dev/react";
 import React from "react";
-import cartesi from "../assets/cartesi.jpeg";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="flex-none">
-        <h1>ConnectWallet</h1>
+        <ConnectWallet />
       </div>
     </div>
   );
