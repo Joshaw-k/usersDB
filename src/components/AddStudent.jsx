@@ -83,7 +83,7 @@ const AddStudent = () => {
   return (
     <div className="w-fit mx-auto mt-8">
       <button
-        className="btn bg-primary text-black"
+        className="btn bg-[#00F7FF] text-black"
         onClick={() => document.getElementById("my_modal_3").showModal()}
       >
         Register Here

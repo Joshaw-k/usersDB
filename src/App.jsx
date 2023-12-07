@@ -7,11 +7,14 @@ import { Toaster, toast } from "sonner";
 
 export default function Home() {
   return (
-    <main className="mt-10">
-      <Navbar />
-      <Toaster position="top-center" richColors />
-      <AddStudent />
-      <ListStudents />
-    </main>
+    <>
+      <main className="my-10">
+        <Navbar />
+        <Toaster position="top-center" richColors />
+        <AddStudent />
+        <ListStudents />
+      </main>
+      <p>This is a Mumbai Testnet Dapp.</p>
+    </>
   );
 }
