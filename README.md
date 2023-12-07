@@ -2,6 +2,8 @@
 
 This a simple users database that replicates how a users register to an application and their data is being appended into a table of registered users.
 
+### NB: This contract was deployed on mumbai testnet.
+
 ## Tools Used
 
 - Wagmi(for wallet integration and smart contract interactions)
